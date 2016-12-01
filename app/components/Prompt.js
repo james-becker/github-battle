@@ -29,11 +29,11 @@ function Prompt (props) {
   )
 }
 
-Prompt.propTypes = {
+Prompt.PropTypes = {
   onSubmitUser: PropTypes.func.isRequired,
   onUpdateUser: PropTypes.func.isRequired,
   header: PropTypes.string.isRequired,
-  username: PropTypes.string.isRequired,
-}
+  username: PropTypes.string.isRequired
+};
 
-module.exports = Prompt
+module.exports = Prompt;
